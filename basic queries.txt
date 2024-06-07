@@ -1,0 +1,74 @@
+create a database:
+   create database databases-name
+use the database
+  use database-name
+drop database
+ drop database database-name
+
+A database contains 4 things:
+ 1. tables: tables stores the data in rows and columns
+    rows also called as records
+    columns also called as fields
+ 2. views: views are used to store the result of a query
+ 3. stored procedures: these stored procedure are used to reuse a specific query
+4. functions: functions are also used for reusability but functions can return value and also can be used for business logic
+
+ datatypes:
+-- to create table understand data types:
+-- INT - normal numbers
+-- Decimal - Decimal(total digits,after decimal)
+-- Decimal(10,2)- 555.313
+-- char(length) - char is used to stor fixed length of string
+-- char(1) -- 'M','F','X'
+-- varchar(15) -- without any fixed length of string
+-- date -- date is used to store date in YYYY-MM-DD
+-- format
+-- time -- time is used to store time in HH:MM:SS
+-- format
+-- timestamp means time and date combined
+
+constraints: constraints are like  rules to define fields
+-- to create table understand data types:
+-- INT - normal numbers
+-- Decimal - Decimal(total digits,after decimal)
+-- Decimal(10,2)- 555.313
+-- char(length) - char is used to stor fixed length of string
+-- char(1) -- 'M','F','X'
+-- varchar(15) -- without any fixed length of string
+-- date -- date is used to store date in YYYY-MM-DD
+-- format
+-- time -- time is used to store time in HH:MM:SS
+-- format
+-- timestamp means time and date combined
+-- create table table_name (
+-- column_1 datatype,
+-- column_2 datatype, column3 datatype constraints);
+-- create table customers(
+-- customer_id INT auto_increment primary key,
+-- first_name varchar(100),
+-- last_name varchar(100),
+-- age INT,
+-- country varchar(100)
+-- ); 
+create table orders( order_id INT Primary key,
+item varchar(100), amount INT, 
+customer_id INT,
+foreign key(customer_id) 
+references customers(customer_id)
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

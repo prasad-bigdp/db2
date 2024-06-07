@@ -1,0 +1,55 @@
+what is DBMS?
+Data base Management Systems are the tools which are used to manage data bases. basically there are two types of databases available i.e.., relational and non-relational
+
+what are relational Databases?
+relational databases stores/organizes the data in tabular format. tabular format is easy to understand and retrieve or analysis but  maintaining will be difficult. SQL(also called as sequel) is the query language used to retieve or create or update or delete the data
+
+what are the main dbms available in market?
+there are so many rdbms are available. popular ones are mySQL,SQL Sqerver, MSSQL, oracle, postgreSQL etc..,
+
+what is mySQL?
+mySQL is dbms used to manage dbs in tradional way(tabular format).
+
+How to install mySQL?
+1. mysql.com/downloads ---> 
+  community downloads --->
+  windows installer --> select web community -->
+  no thanks download
+
+2. either go with full or custom and select server, workbench,shell and install
+
+3. create a password for future use
+
+mySQL Server will actually runs MySQL in local environment and it can be connected either by shell or workbench
+workbench: GUI for mySQL
+open workbench , enter password(click check for save) ,
+left side you can see data bases, right side you can see querypad
+
+write a basic query to create database " create database db-name"
+execute it by clicking on power button
+shell: CLI for mySQL
+you can also use shell by opening command line client and enter password
+try to delete the database by command " drop database db-name"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
