@@ -1,22 +1,3 @@
-what is data? what is dabase? what is dbms?
-MySQL vs SQL vs noSQL
-doqnload and installed mySQL server , workbench,shell
-
-create a database:
-   create database databases-name
-use the database
-  use database-name
-drop database
- drop database database-name
-
-A database contains 4 things:
- 1. tables: tables stores the data in rows and columns
-    rows also called as records
-    columns also called as fields
- 2. views: views are used to store the result of a query
- 3. stored procedures: these stored procedure are used to reuse a specific query
-4. functions: functions are also used for reusability but functions can return value and also can be used for business logic
-
 -- to create table understand data types:
 -- INT - normal numbers
 -- Decimal - Decimal(total digits,after decimal)
@@ -92,91 +73,10 @@ A database contains 4 things:
  
  
  
-
-
-
-
-
-ALL commands in MYSQL are divided into differenct categories.
-DML(data manipulation language): these commands are used to manipulate the data within the tables
-eg: select, insert, delete, update
-DDL(data definition langugae):  these commands are used to define the data within the tables
-eg: create, drop,modify,alter,truncate 
-DCL(data control language): these commands are used to control the data
-eg: grant, revoke
-TCL(transmission/transaction control language): these commands are used to control the transaction
-eg:save,commit,rollback etc..,
-
-
-DML(Data Manipulation Language)
-select: select is used to select  and displays rows from a table,
-from : from contains the tables we are using in the query
-where : where is used to specify a condition so that result rows will be filtered based on the condition
-  -- we can use multiple operators in the where
-   i. equality(=)
-   ii. greater than(>)
-   iii.<
-   iv. >=
-   v. <=
-   vi. <>
-   vii. in (value1,value2,value3...) : select the rows with specified field values is in the values set given
-  viii. between value1 and value2 : it returns set of values between val1 and value2
-   ix. like '%x' :  like is used for similarity
-    % means anything including nothing but _ means only one character
-
-UPDATE:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
 
 
 
