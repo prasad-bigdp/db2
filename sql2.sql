@@ -65,8 +65,8 @@ set sql_safe_updates=0;
 --  where condition
 -- delete from students
 -- where rankk=2
-select count(sno) as no_of_students
-from students;
+-- select count(sno) as no_of_students
+-- from students;
 
 
 

@@ -1,0 +1,8 @@
+
+-- sample queries to practice
+-- WAQ to retieve 
+-- how many orders came for each Product with their name
+-- WAQ to retieve no of orders shipped, pending,delivered
+-- WAQ to 
+-- retieve customer names with the amount they paid
+-- and no.of orders they did

@@ -1,0 +1,31 @@
+DML,DQL,DDL,TCL
+create,insert,update,delete,drop,truncate,rename,change
+select,from,where
+aggregate (count,sum,avg,min,max,group_concat,distinct)
+group by,having,order by
+
+
+
+
+JOINS: Joins are used to get the data based on two tables. it is used to combine rows from two or more tables based on related columns. there are several types of joins. they are:
+1. inner JOIN:  return rows that have matching values in both tables. it means common data
+2.left JOIN:
+3.right JOIN:
+4. FUll JOIN:
+left join 
+union 
+right join
+
+
+
+
+
+
+
+
+
+
+
+
+
+
