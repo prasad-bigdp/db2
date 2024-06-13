@@ -1,0 +1,21 @@
+Retrieve all students.
+
+Find all courses taught by 'Mr. Johnson'.
+Get the names of all students who are 16 years old.
+List all students enrolled in 'Mathematics'.
+Count the number of students in each class.
+Get the list of courses along with the instructor names, ordered by course name.
+Find the total number of enrollments.
+Get the list of students along with the courses they are enrolled in.
+Find the students who are enrolled in more than one course.
+Get the list of instructors and the number of courses they teach.
+List the students and their ages who are in the 10th class.
+Find the courses that 'Emily Davis' is enrolled in.
+Count the number of students enrolled in each course.
+Get the list of students who are not enrolled in any course.
+Find the courses that have more than 2 students enrolled.
+Retrieve the details of students who are enrolled in 'Chemistry'.
+List all courses that 'Jane Smith' is not enrolled in.
+Find the average age of students in each class.
+Get the list of students and the number of courses they are enrolled in.
+List the names of students along with the names of the instructors for their enrolled courses.
